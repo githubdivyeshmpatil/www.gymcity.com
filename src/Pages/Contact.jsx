@@ -15,12 +15,12 @@ function Contact() {
                <Navbar />
              </div>
              <img 
-     src="img/cont.png" 
+     src="img/power.png" 
      alt="Gym Image" 
-     className="w-full h-[150px] sm:h-[400px] md:h-[500px] object-cover"
+     className="w-full h-[180px] sm:h-[400px] md:h-[500px] object-cover"
    />
 
-   <div className='mt-10'>
+   <div className='mt-2'>
    <Text title="CONTACT -US" />
    </div>
    <div className="flex flex-col md:flex-row h-full mt-7">
