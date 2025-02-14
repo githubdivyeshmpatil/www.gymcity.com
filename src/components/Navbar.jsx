@@ -37,7 +37,7 @@ export default function Navbar() {
 </div>
 
         {/* Desktop Menu (Centered) */}
-        <ul className="hidden md:flex space-x-6 absolute left-1/2 transform -translate-x-1/2">
+        <ul className="hidden md:flex space-x-6 absolute left-1/2 transform -translate-x-1/2 font-rajdhani">
           <li><Link to="/" className="hover:text-gray-400">HOME</Link></li>
           <li><Link to="/about-us" className="hover:text-gray-400">ABOUT-US</Link></li>
           <li><Link to="/services" className="hover:text-gray-400">SERVICES</Link></li>
@@ -76,13 +76,14 @@ export default function Navbar() {
           isOpen ? "translate-x-0" : "-translate-x-full"
         } transition-transform duration-300 ease-in-out md:hidden p-5`}
       >
-        <button
-          className="text-white text-xl mb-5 focus:outline-none"
-          onClick={() => setIsOpen(false)}
-        >
-          <X size={28} />
-        </button>
-        <ul className="space-y-4 text-lg">
+       <button
+  className="text-white text-xl mb-5 focus:outline-none"
+  onClick={() => setIsOpen(false)}
+>
+  <img src="img/logo.png" alt="Close" className="w-20 h-20" />
+</button>
+
+        <ul className="space-y-4 text-lg text-white ">
           <li><Link to="/" className="hover:text-gray-400">HOME</Link></li>
           <li><Link to="/about-us" className="hover:text-gray-400">ABOUT-US</Link></li>
           <li><Link to="/services" className="hover:text-gray-400">SERVICES</Link></li>
