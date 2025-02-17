@@ -82,7 +82,7 @@ export default function Navbar() {
   className="text-white text-xl mb-5 focus:outline-none"
   onClick={() => setIsOpen(false)}
 >
-  <img src="img/logo.png" alt="Close" className="w-20 h-20" />
+  <img src="img/newlogo.png" alt="Close" className="w-20 h-20" />
 </button>
 
         <ul className="space-y-4 text-lg text-white ">
