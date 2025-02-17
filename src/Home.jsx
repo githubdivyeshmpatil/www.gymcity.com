@@ -38,7 +38,6 @@ function Home() {
       </div>
 
       <StatsCounter />
-     
 
       <div className="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8 mt-10 ">
         <Text title="FIND WHAT MOVES YOU" />
@@ -118,7 +117,7 @@ function Home() {
       </div>
 
       <div className="w-full p-6 md:p-10 text-center"></div>
-    
+
       <Text title="WHAT CLIENT'S SAY" />
       <div
         className="container-fluid bg-cover bg-center min-h-screen"
@@ -163,7 +162,6 @@ function Home() {
         </div>
       </div>
       <WhatsAppPopup />
-     
     </>
   );
 }

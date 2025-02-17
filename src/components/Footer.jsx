@@ -36,33 +36,33 @@ function Footer() {
               </div>
             </div>
 
-            <div class="p-4">
-  <h2 class="font-semibold text-md mb-4 font-roboto">Quick Links</h2>
-  <ul class="space-y-4">
-    <Link to='/' class="flex items-center space-x-4">
+            <div className="p-4">
+  <h2 className="font-semibold text-md mb-4 font-roboto">Quick Links</h2>
+  <ul className="space-y-4">
+    <Link to='/' className="flex items-center space-x-4">
     <CgGym  size={20} color='orange'/>
 
-      <p class="font-semibold">Home</p>
+      <p className="font-semibold">Home</p>
     </Link>
-    <Link to="/about-us" class="flex items-center space-x-4">
+    <Link to="/about-us" className="flex items-center space-x-4">
     <CgGym  size={20} color='orange'/>
 
-      <p class="font-semibold">About Us</p>
+      <p className="font-semibold">About Us</p>
     </Link>
-    <Link to="/services" class="flex items-center space-x-4">
+    <Link to="/services" className="flex items-center space-x-4">
     <CgGym  size={20} color='orange'/>
 
-      <p class="font-semibold">Services</p>
+      <p className="font-semibold">Services</p>
     </Link>
-    <Link to="/shop" class="flex items-center space-x-4">
+    <Link to="/shop" className="flex items-center space-x-4">
     <CgGym  size={20} color='orange'/>
 
-      <p class="font-semibold">Shop</p>
+      <p className="font-semibold">Shop</p>
     </Link>
-    <Link to="/contact" class="flex items-center space-x-4">
+    <Link to="/contact" className="flex items-center space-x-4">
     <CgGym  size={20} color='orange'/>
 
-      <p class="font-semibold">Contact</p>
+      <p className="font-semibold">Contact</p>
     </Link>
   </ul>
 </div>

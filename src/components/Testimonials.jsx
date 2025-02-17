@@ -14,7 +14,7 @@ const testimonials = [
   {
     name: "devendra rajput",
     position: "gym city",
-    image: "https://randomuser.me/api/portraits/women/10.jpg",
+    image: "img/deva.jpg",
     feedback:
       "I’ve never felt more motivated,The environment is welcoming, and the facilities are always clean. Whether you’re a beginner or a pro, this gym has everything you need.",
     rating: 4.5
