@@ -1,3 +1,4 @@
+import { Link,  } from "react-router-dom";
 import React from 'react';
 import { CgGym } from "react-icons/cg";
 import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin, FaWhatsapp, FaMapMarkerAlt, FaEnvelope, FaPhoneAlt } from "react-icons/fa";
@@ -35,17 +36,37 @@ function Footer() {
               </div>
             </div>
 
-            <div>
-              <h2 className="font-semibold text-md mb-4 font-roboto">Quick Links</h2>
-              <ul className="space-y-4">
-                {["Home", "About-Us", "Services", "Shop", "Contact"].map((item, index) => (
-                  <li key={index} className="flex items-center space-x-4">
-                    <CgGym size={25} className="text-orange-500" />
-                    <p className="font-semibold">{item}</p>
-                  </li>
-                ))}
-              </ul>
-            </div>
+            <div class="p-4">
+  <h2 class="font-semibold text-md mb-4 font-roboto">Quick Links</h2>
+  <ul class="space-y-4">
+    <Link to='/' class="flex items-center space-x-4">
+    <CgGym  size={20} color='orange'/>
+
+      <p class="font-semibold">Home</p>
+    </Link>
+    <Link to="/about-us" class="flex items-center space-x-4">
+    <CgGym  size={20} color='orange'/>
+
+      <p class="font-semibold">About Us</p>
+    </Link>
+    <Link to="/services" class="flex items-center space-x-4">
+    <CgGym  size={20} color='orange'/>
+
+      <p class="font-semibold">Services</p>
+    </Link>
+    <Link to="/shop" class="flex items-center space-x-4">
+    <CgGym  size={20} color='orange'/>
+
+      <p class="font-semibold">Shop</p>
+    </Link>
+    <Link to="/contact" class="flex items-center space-x-4">
+    <CgGym  size={20} color='orange'/>
+
+      <p class="font-semibold">Contact</p>
+    </Link>
+  </ul>
+</div>
+
 
             <div>
               <h2 className="font-semibold text-xl mb-4 font-roboto">Follow Us</h2>
