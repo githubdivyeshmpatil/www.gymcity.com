@@ -30,10 +30,10 @@ export default function Navbar() {
         isScrolled ? "bg-gray-900" : "bg-transparent md:bg-gray-900"}
       `}
     >
-      <div className="container mx-auto flex justify-between items-center relative text-white">
+      <div className="container mx-auto flex justify-between items-center relative text-white ">
         {/* Logo */}
         <div className="flex items-center space-x-2">
-  <img src="img/logo.png" alt="Logo" className="h-10 w-10 object-contain" />
+  <img src="img/newlogo.png" alt="Logo" className="h-14  w-14 object-contain" />
 </div>
 
         {/* Desktop Menu (Centered) */}

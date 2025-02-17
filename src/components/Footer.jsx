@@ -14,7 +14,7 @@ function Footer() {
         <div className="container mx-auto px-6">
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-12">
             <div>
-              <img src="/img/logo.png" alt="Company Logo" className="w-24 h-24" />
+              <img src="/img/newlogo.png" alt="Company Logo" className="w-24 h-24" />
               <p className="mt-6 text-md sm:text-base font-semibold text-white-700 text-justify">
                 Your transformation starts here! Join us to reach your fitness goals with expert trainers and top-notch equipment.
               </p>
