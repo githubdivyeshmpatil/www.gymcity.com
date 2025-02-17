@@ -4,49 +4,49 @@ import { FaStar, FaStarHalfAlt } from "react-icons/fa";
 
 const testimonials = [
   {
-    name: "Tahmid Alom",
-    position: "CEO",
-    image: "https://randomuser.me/api/portraits/men/10.jpg",
+    name: "jay patil",
+    position: "gym city",
+    image: "img/e9.jpg",
     feedback:
       "Best gym in town!This gym changed my life! The personal trainers really care about your progress, and the workout programs are intense but fun.",
     rating: 5
   },
   {
-    name: "John Doe",
-    position: "CEO",
+    name: "devendra rajput",
+    position: "gym city",
     image: "https://randomuser.me/api/portraits/women/10.jpg",
     feedback:
       "I’ve never felt more motivated,The environment is welcoming, and the facilities are always clean. Whether you’re a beginner or a pro, this gym has everything you need.",
     rating: 4.5
   },
   {
-    name: "Alice Brown",
-    position: "Manager",
+    name: "tushar patil",
+    position: "gym city",
     image: "https://randomuser.me/api/portraits/women/11.jpg",
     feedback:
       "Lost 15 pounds and gained confidence,I used to struggle with consistency, but the group classes here keep me accountable. Now, working out is something I look forward to every day!",
     rating: 4
   },
   {
-    name: "David Smith",
-    position: "Director",
+    name: "Ankit singh",
+    position: "gym city",
     image: "https://randomuser.me/api/portraits/men/11.jpg",
     feedback:
       "Top-Notch Equipment & Trainers tried many gyms, but this one stands out! The equipment is always clean, and the trainers push you to be your best.",
     rating: 5
   },
   {
-    name: "Emma Wilson",
-    position: "Developer",
+    name: "Mayur mishra",
+    position: "gym city",
     image: "https://randomuser.me/api/portraits/women/12.jpg",
     feedback:
       "From Beginner to Fitness Enthusiast I was intimidated at first, but the friendly staff made me feel at home. Now, fitness is a part of my lifestyle",
     rating: 4.5
   },
   {
-    name: "James Lee",
-    position: "Designer",
-    image: "https://randomuser.me/api/portraits/men/12.jpg",
+    name: "Shekhar",
+    position: "gym city",
+    image: "img/se.jpg",
     feedback:
       "The energy here is amazing! Whether you’re a beginner or an athlete, you’ll find the perfect environment to reach your goals.",
     rating: 4

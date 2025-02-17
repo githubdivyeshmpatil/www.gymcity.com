@@ -7,19 +7,19 @@ import { RxCross2 } from "react-icons/rx";
 const plans = [
   {
     name: "1 Month",
-    price: "₹3000/-",
+    price: "₹600/-",
     features: ["1 Month", "General Trainer", "Full Gym Access"],
     notIncluded: ["Zumba and Yoga complementary"],
   },
   {
     name: "3 Months",
-    price: "₹8000/-",
+    price: "₹1500/-",
     features: ["3 Months", "Personal Trainer", "Steam & Sauna"],
     notIncluded: ["Diet Plan"],
   },
   {
-    name: "6 Months",
-    price: "₹15000/-",
+    name: "1 Years",
+    price: "₹4500/-",
     features: ["6 Months", "Premium Trainer", "All VIP Access"],
     notIncluded: ["Massage Therapy"],
   },

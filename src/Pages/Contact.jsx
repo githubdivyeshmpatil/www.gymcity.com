@@ -59,7 +59,7 @@ function Contact() {
         </div>
         <div className="flex items-center space-x-3">
           <span className="text-green-400 text-xl">📧</span>
-          <p className="text-gray-300">info@example.com</p>
+          <p className="text-gray-300">malikprabhash786@gmail.com</p>
         </div>
       </div>
     </div>

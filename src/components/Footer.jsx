@@ -18,10 +18,20 @@ function Footer() {
                 Your transformation starts here! Join us to reach your fitness goals with expert trainers and top-notch equipment.
               </p>
               <div className="flex justify-start space-x-6 p-4">
-                <a href="#" className="text-white-600 text-3xl hover:text-blue-800"><FaFacebook /></a>
-                <a href="#" className="text-white-400 text-3xl hover:text-blue-600"><FaTwitter /></a>
-                <a href="#" className="text-white-500 text-3xl hover:text-pink-700"><FaInstagram /></a>
-                <a href="#" className="text-white-700 text-3xl hover:text-green-900"><FaWhatsapp /></a>
+              <a href="/" target="_blank" rel="noopener noreferrer">
+  <img src="img/whatsapp.png" alt="Facebook" className="w-10 h-10 hover:opacity-80" />
+</a>
+<a   href="https://www.instagram.com/gymcity27/profilecard/?igsh=MWpoNmMzMHAzYWdrZg=="
+ target="_blank" rel="noopener noreferrer">
+  <img src="img/instagram.png" alt="Twitter" className="w-10 h-10 hover:opacity-80" />
+</a>
+<a href="/" target="_blank" rel="noopener noreferrer">
+  <img src="img/facebook.png" alt="Instagram" className="w-10 h-10 hover:opacity-80" />
+</a>
+<a href="/" target="_blank" rel="noopener noreferrer">
+  <img src="img/google.png" alt="WhatsApp" className="w-10 h-10 hover:opacity-80" />
+</a>
+
               </div>
             </div>
 
@@ -58,7 +68,7 @@ function Footer() {
                 </li>
                 <li className="flex items-center space-x-3">
                   <FaEnvelope className="text-orange-500 text-2xl" />
-                  <p className="font-semibold text-md">example@example.com</p>
+                  <p className="font-semibold text-md">malikprabhash786@gmail.com</p>
                 </li>
                 <li className="flex items-center space-x-3">
                   <FaPhoneAlt className="text-orange-500 text-2xl" />

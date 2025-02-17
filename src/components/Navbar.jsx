@@ -55,13 +55,15 @@ export default function Navbar() {
       onClick={() => navigate("/contact")}
     >
       
-    </span>
-<span className="hidden md:inline cursor-pointer">
-  <img src="img/facebook.png" alt="User" className="w-6 h-6" />
-</span>
-
-          
-          <button
+      </span>
+<a
+  href="https://www.instagram.com/gymcity27/profilecard/?igsh=MWpoNmMzMHAzYWdrZg=="
+  target="_blank"
+  rel="noopener noreferrer"
+  className="hidden md:inline cursor-pointer"
+>
+  <img src="img/instagram.png" alt="Instagram" className="w-6 h-6" />
+</a>  <button
             className="md:hidden focus:outline-none ml-auto flex justify-end"
             onClick={() => setIsOpen(!isOpen)}
           >
