@@ -1,13 +1,13 @@
 export default function Trainers() {
   const trainers = [
     {
-      name: "Prabhash Malik Ower",
+      name: "Prabhash Malik Owner",
       achievement: "Certified Fitness Coach",
       experience: "20+ Years Experience",
       image: "img/sir1.jpg",
     },
     {
-      name: "Sagar Divare",
+      name: "Sagar Dhivare",
       achievement: "Gym City Fitness Coach",
       experience: "8+ Years Experience",
       image: "img/sir3.jpg",
@@ -19,7 +19,7 @@ export default function Trainers() {
       image: "img/sir2.jpg",
     },
     {
-      name: "Srikanth ",
+      name: "Srikant bhuyan",
       achievement: "Gym City Fitness Coach",
       experience: "4+ Years Experience",
       image: "img/sri.jpg",

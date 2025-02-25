@@ -1,19 +1,19 @@
 import React, { useState } from "react";
 
 const images = [
-  "/images/gym1.jpg", "/images/gym2.jpg", "/images/gym3.jpg", "/images/gym4.jpg",
-  "/images/gym5.jpg", "/images/gym6.jpg", "/images/gym7.jpg", "/images/gym8.jpg",
-  "/images/gym9.jpg", "/images/gym10.jpg", "/images/gym11.jpg", "/images/gym12.jpg",
-  "/images/gym13.jpg", "/images/gym14.jpg", "/images/gym15.jpg", "/images/gym16.jpg",
-  "/images/gym17.jpg", "/images/gym18.jpg", "/images/gym19.jpg", "/images/gym20.jpg"
+  "/img/g1 (1).jpeg", "/img/g1 (2).jpeg", "/img/g1 (3).jpeg", "/img/g1 (4).jpeg",
+  "/img/g1 (5).jpeg", "/img/g1 (6).jpeg", "/img/g1 (7).jpeg", "/img/g1 (8).jpeg",
+  "/img/g1 (9).jpeg", "/img/g1 (10).jpeg", "/img/g1 (11).jpeg", "/img/g1 (12).jpeg",
+  "/img/g1 (13).jpeg", "/img/g1 (14).jpeg", "/img/g1 (15).jpeg", "/img/g1 (16).jpeg",
+  "/img/g1 (17).jpeg", "/img/g1 (18).jpeg", "/img/g1 (19).jpeg", "/img/g1 (20).jpeg"
 ];
 
 const hoverImages = [
-  "/images/gym2.jpg", "/images/gym3.jpg", "/images/gym4.jpg", "/images/gym5.jpg",
-  "/images/gym6.jpg", "/images/gym7.jpg", "/images/gym8.jpg", "/images/gym9.jpg",
-  "/images/gym10.jpg", "/images/gym11.jpg", "/images/gym12.jpg", "/images/gym13.jpg",
-  "/images/gym14.jpg", "/images/gym15.jpg", "/images/gym16.jpg", "/images/gym17.jpg",
-  "/images/gym18.jpg", "/images/gym19.jpg", "/images/gym20.jpg", "/images/gym1.jpg"
+  "/img/g1 (21).jpeg", "/img/g1 (22).jpeg", "/img/g1 (23).jpeg", "/img/g1 (24).jpeg",
+  "/img/g1 (25).jpeg", "/img/g1 (26).jpeg", "/img/g1 (27).jpeg", "/img/g1 (28).jpeg",
+  "/img/g1 (29).jpeg", "/img/g1 (30).jpeg", "/img/g1 (1).jpeg", "/img/g1 (2).jpeg",
+  "/img/g1 (3).jpeg", "/img/g1 (4).jpeg", "/img/g1 (5).jpeg", "/img/g1 (6).jpeg",
+  "/img/g1 (7).jpeg", "/img/g1 (8).jpeg", "/img/g1 (9).jpeg", "/img/g1 (20).jpeg"
 ];
 
 const Gallery = () => {

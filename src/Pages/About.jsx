@@ -7,7 +7,7 @@ import Trainers from "../components/Trainers";
 import Text from "../components/Text";
 import WhatsAppPopup from "../Animation/WhatsAppPopup";
 
-function About() {
+function className() {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []); // Empty dependency array ensures it runs once when the component mounts
@@ -67,4 +67,4 @@ function About() {
   );
 }
 
-export default About;
+export default className;
