@@ -19,7 +19,7 @@ function Footer() {
                 Your transformation starts here! Join us to reach your fitness goals with expert trainers and top-notch equipment.
               </p>
               <div className="flex justify-start space-x-6 p-4">
-              <a href="https://wa.me/919876543210?text=Hello%20I%20am%20interested%20in%20your%20services" target="_blank"  rel="noopener noreferrer">
+              <a href="https://wa.me/7405144232" target="_blank"  rel="noopener noreferrer">
   <img src="img/whatsapp.png" alt="Facebook" className="w-10 h-10 hover:opacity-80" />
 </a>
 <a   href="https://www.instagram.com/gymcity27/profilecard/?igsh=MWpoNmMzMHAzYWdrZg=="
