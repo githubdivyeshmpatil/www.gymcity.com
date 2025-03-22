@@ -3,7 +3,7 @@ export default function GymGrid() {
       { src: "/img/tra1.jpg", span: "col-span-2 row-span-1" },
       { src: "/img/tra1.jpg", span: "col-span-1 row-span-1" },
       { src: "/img/tra6.jpg", span: "col-span-1 row-span-1" },
-      { src: "/img/tra3.jpg", span: "col-span-2 row-span-1" },
+      { src: "/img/tra7.jpg", span: "col-span-2 row-span-1" },
       { src: "/img/tra5.jpg", span: "col-span-1 row-span-1" },
       { src: "/img/tra4.jpg", span: "col-span-1 row-span-1" },
       { src: "/img/tra3.jpg", span: "col-span-1 row-span-1" },
@@ -21,7 +21,7 @@ export default function GymGrid() {
         ))}
         <video autoPlay muted loop className="col-span-3 w-full h-full mt-4">
           <source src="/img/vid.mp4" type="video/mp4" />
-          Your browser does not support the video tag.
+          Your browser does not support the video .
         </video>
       </div>
     );
