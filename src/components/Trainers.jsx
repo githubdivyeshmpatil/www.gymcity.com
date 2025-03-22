@@ -12,25 +12,13 @@ export default function Trainers() {
       experience: "8+ Years Experience",
       image: "img/sir3.jpg",
     },
-    {
-      name: "Deepak Patil",
-      achievement: "Gym City Fitness Coach",
-      experience: "5+ Years Experience",
-      image: "img/sir2.jpg",
-    },
-    {
-      name: "Srikant bhuyan",
-      achievement: "Gym City Fitness Coach",
-      experience: "4+ Years Experience",
-      image: "img/sri.jpg",
-    },
   ];
 
   return (
-    <div className="container mx-auto px-4 py-10 mt-10">
-      <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
+    <div className="flex justify-center items-center w-full px-4 py-10 mt-10">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-8 w-full max-w-4xl mx-auto place-items-center">
         {trainers.map((trainer, index) => (
-          <div key={index} className="bg-white p-6 rounded-2xl text-center">
+          <div key={index} className="bg-white p-6 rounded-2xl text-center shadow-lg w-80">
             <img
               src={trainer.image}
               alt={trainer.name}

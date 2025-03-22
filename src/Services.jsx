@@ -5,6 +5,7 @@ import Gallery from './components/Gallery'
 import Text from './components/Text'
 import HeroSection from './components/HeroSection'
 import WhatsAppPopup from './Animation/WhatsAppPopup'
+import GymGrid from './components/GymGrid'
 
 function Services() {
   useEffect(() => {
@@ -22,6 +23,8 @@ function Services() {
     </Sectionback>
     <Text title="GYM CITY GALLERY" />
     <Gallery/>
+    <Text title="TRANSFORMATION STORIES" />
+    <GymGrid/>
     <HeroSection/>
     <div className='mt-6'>
     <marquee
